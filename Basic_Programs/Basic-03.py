@@ -1,0 +1,10 @@
+#python program to simple interest
+# for given principal amount ,time and rate of interest.
+def simple_interest(p,t,r):
+   print('The principle is',p)
+   print('THe time period is',t)
+   print('The rate of interest is',r)
+   si =(p*t*r)/100
+   print('The Simple Interest is',si)
+   return si
+simple_interest(8,6,8)
