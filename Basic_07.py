@@ -1,4 +1,4 @@
-# To check if a string is palindrome or not 
+# To check if a string is palindrome or not using functions
 def isPalindrome(s):
     return s ==s[::-1]
 s ="malayalam"
