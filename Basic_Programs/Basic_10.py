@@ -6,3 +6,5 @@ words =string.split()
 words = list(reversed(words))
 ## joining the words and printing
 print(" ".join(words))
+# reversing the sring  
+print(string[::-1])
