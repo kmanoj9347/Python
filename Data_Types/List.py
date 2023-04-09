@@ -11,6 +11,9 @@ List = ["John","Tom","Nick"]
 print("\nList containig multiple values: ",List)
 print(List[0])
 print(List[2])
+#print the last element of list
+# negative idexing 
+print(List[-1])
 
 #Creating a Multi-Dimensional List
 #(By Nesting a list inside a list)
