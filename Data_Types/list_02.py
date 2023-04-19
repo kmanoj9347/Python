@@ -22,7 +22,27 @@ print(len(list))
 
 #Addition of elements in the list
 list.append(1)
-list.append('is')
-list.append(1)
+list.append(2)
+list.append(3)
 print("\nlist after Addition of three elements: ")
 print(list)
+
+#Adding elements to the list using Iterator
+for i in range(4,6):
+    list.append(i)
+print("\nlist after Addition of elements from 4-6: ")
+print(list)
+ 
+#Addition of elements at specific Position
+# (using Insert Method) 
+list.insert(0,'hi')
+list.insert(7,7)
+print("\nlist after performing insert operation: ")
+print(list)
+
+#Addition of multiple elements to the list at the end
+#(using Extend method)
+list.extend([8,'live','life'])
+print("\nlist After performing Extend operation: ")
+print(list)
+print(list[::-1])
