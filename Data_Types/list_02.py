@@ -45,4 +45,15 @@ print(list)
 list.extend([8,'live','life'])
 print("\nlist After performing Extend operation: ")
 print(list)
-print(list[::-1])
+
+#Reversing a list
+list.reverse()
+print("\nReversed string")
+print(list)
+
+#Removing elemts from list 
+#using Remove()  method
+list.remove(5)
+list.remove('hi')
+print("\nlist after Removal of two elements: ")
+print(list)
