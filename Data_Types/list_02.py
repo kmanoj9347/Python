@@ -51,9 +51,17 @@ list.reverse()
 print("\nReversed string")
 print(list)
 
+
 #Removing elemts from list 
 #using Remove()  method
-list.remove(5)
+list.reverse()
+list.remove(7)
 list.remove('hi')
 print("\nlist after Removal of two elements: ")
+print(list)
+
+# Removing elements from the list
+#using the pop() method
+list.pop(2)
+print("\nlist after poping an elements: ")
 print(list)
