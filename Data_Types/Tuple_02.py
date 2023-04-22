@@ -19,3 +19,14 @@ n =5
 for i in range(int(n)):
     tuple1 = (tuple1,)
     print(tuple1)
+
+#Accesing of tuple with indexing.
+print("\nFisrt element of tuple: ")
+print(tuple1[0])
+tuple1= ('python','data', 'type','tuple')
+#unpack values of tuple1.
+a,b,c,d= tuple1
+print("\n Values after unpacking: ")
+print(a)
+print(b)
+print(c)
