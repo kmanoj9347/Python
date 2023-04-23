@@ -41,3 +41,8 @@ print(tuple1[::-1])
 
 print("\nprinting elements between Range 4-9: ")
 print(tuple1[4:9])
+
+#Deleting a tuple
+tuple1 = (0,1,2,3,4,5)
+del tuple1
+print(tuple1)
