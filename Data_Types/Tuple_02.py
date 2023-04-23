@@ -30,3 +30,14 @@ print("\n Values after unpacking: ")
 print(a)
 print(b)
 print(c)
+
+#slicing of a tuple with numbers
+tuple1 = tuple('manojkumar')
+print("Removal of First Elements: ")
+print(tuple[1:])
+
+print("\ntuple after sequence of elements is reversed: ")
+print(tuple1[::-1])
+
+print("\nprinting elements between Range 4-9: ")
+print(tuple1[4:9])
