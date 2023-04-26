@@ -7,3 +7,10 @@ print(set1)
 set1 =set("manojkumar")
 print("\nSet with the use of String: ")
 print(set1)
+
+#set with the use of cnstruction 
+#(Using object to store String)
+String ='Manojkumar'
+set1 = set(String)
+print("\nSet with the use of an Object: ")
+print(set1)
