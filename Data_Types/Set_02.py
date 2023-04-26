@@ -27,7 +27,18 @@ print("\nSet with the use of numbers: ")
 print(set1)
 
 #Creating a set with a mixed type of values
-(Having numbers and strings)
+#(Having numbers and strings)
 set1 = set([1,2,'python',4,'language',6,'datatype'])
 print("\nSet with the use of Mixed Values")
+print(set1)
+
+#Another Method to create sets in python
+my_set ={1,2,3} 
+print(my_set)
+
+#Adding element and tuple to the Set
+set1.add(8)
+set1.add(9)
+set1.add((6,7))
+print("\nSet after Addition of three elements: ")
 print(set1)
