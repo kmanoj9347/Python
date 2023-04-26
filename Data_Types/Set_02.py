@@ -14,3 +14,8 @@ String ='Manojkumar'
 set1 = set(String)
 print("\nSet with the use of an Object: ")
 print(set1)
+
+#Creating a set with the use of a List
+set1 = set(["Python","Language","DATATYPE"])
+print("\nSet with the use of List: ")
+print(set1)
