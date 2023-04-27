@@ -42,3 +42,9 @@ set1.add(9)
 set1.add((6,7))
 print("\nSet after Addition of three elements: ")
 print(set1)
+
+#ADdition of elements to the set using updation function.
+set1 = set([4,5,(6,7)])
+set1.update([10,11])
+print("\nSet after Addition of elements using update: ")
+print(set1)
