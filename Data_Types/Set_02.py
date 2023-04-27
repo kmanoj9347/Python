@@ -53,3 +53,23 @@ print(set1)
 print("\nElements of set: ")
 for i in set1:
     print(i,end=" ")
+
+#Deletion of elements in a set using Remove() method.
+set1 = set([1,2,3,4,5,6,7,8,9,11,12,13,14,15])
+print(set1)
+set1.remove(3)
+set1.remove(6)
+print("\n Set after Removal of two elements: ")
+print(set1)
+
+#Removing elements from set using Discard() method
+set1.discard(8)
+set1.discard(11)
+print("\nSet after Discarding two elements: ")
+print(set1)
+
+#Remving elements from set using iterator method
+for i in range(1, 5):
+    set1.remove(i)
+print("\nSet after Removing a range of elements: ")
+print(set1)
