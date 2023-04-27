@@ -48,3 +48,8 @@ set1 = set([4,5,(6,7)])
 set1.update([10,11])
 print("\nSet after Addition of elements using update: ")
 print(set1)
+
+#Accessing of eleemts using for loop
+print("\nElements of set: ")
+for i in set1:
+    print(i,end=" ")
