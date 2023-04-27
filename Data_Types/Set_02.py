@@ -68,8 +68,7 @@ set1.discard(11)
 print("\nSet after Discarding two elements: ")
 print(set1)
 
-#Remving elements from set using iterator method
-for i in range(1, 5):
-    set1.remove(i)
-print("\nSet after Removing a range of elements: ")
+#Using the pop() method.
+set1.pop()
+print("\nSet after popping an elements: ")
 print(set1)
