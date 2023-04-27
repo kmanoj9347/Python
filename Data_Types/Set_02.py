@@ -72,3 +72,8 @@ print(set1)
 set1.pop()
 print("\nSet after popping an elements: ")
 print(set1)
+
+#Remving all the elements from set using clear() method.
+set1.clear()
+print("\nSet after clearing all the elements: ")
+print(set1)
