@@ -24,3 +24,10 @@ print(Dict[1])
 #Accessing a elements using get() method
 print("Accessing a elements using get: ")
 print(Dict.get(4))
+
+#Deleting of the Dictionary data.
+del(Dict[1])
+del(Dict['Name'])
+print("Data after deletion Dictioonary:")
+print(Dict)
+
