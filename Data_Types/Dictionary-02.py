@@ -15,3 +15,12 @@ Dict[1]= 'Numbers'
 Dict['Value_set']='a','b','c'
 print("\nDictionary after adding elements: ")
 print(Dict)
+
+#Accessing a element using key.
+print("Accessing a elements using key: ")
+print(Dict['Name'])
+print(Dict[1])
+
+#Accessing a elements using get() method
+print("Accessing a elements using get: ")
+print(Dict.get(4))
