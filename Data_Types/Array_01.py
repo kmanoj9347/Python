@@ -23,3 +23,9 @@ b.append(4.4)
 print("\nArray after insertion : ",end=" ")
 for i in (b):
     print(i,end=" ")
+print()
+#accesssing eleemts of array
+print("Access element is: ",a[0])
+print("Access element is: ",a[3])
+print('Access element is: ',b[1])
+print("Access element is: ",b[2])
