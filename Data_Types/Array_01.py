@@ -12,4 +12,14 @@ print("\nThe new created array is : ",end=" ")
 for i in range(0,3):
     print(b[i],end=" ")
 
+#inserting array using insert() function
+a.insert(1,4)
+print("\nArray after insertion : ",end=" ")
+for i in (a):
+    print(i,end=" ")
 
+#adding an elements using append()
+b.append(4.4)
+print("\nArray after insertion : ",end=" ")
+for i in (b):
+    print(i,end=" ")
