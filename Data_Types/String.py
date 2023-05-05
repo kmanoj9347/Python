@@ -15,3 +15,8 @@ String1 ='''k
         kumar'''
 print("\nCreating a multiline string: ")
 print(String1)
+
+#Access character of string
+print("Acessing of characters:")
+print(String1[0])
+print(String1[12])
