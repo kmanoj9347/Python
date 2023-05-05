@@ -20,3 +20,8 @@ print(String1)
 print("Acessing of characters:")
 print(String1[0])
 print(String1[12])
+print(String1[-8])
+
+#Reversing of string
+print("Reversing of string:")
+print(String1[::-1])
