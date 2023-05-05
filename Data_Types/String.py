@@ -25,3 +25,7 @@ print(String1[-8])
 #Reversing of string
 print("Reversing of string:")
 print(String1[::-1])
+#using reversed and join function
+print("Reversing string using revered function")
+String1 ="".join(reversed(String1))
+print(String1)
