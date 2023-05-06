@@ -29,3 +29,11 @@ print(String1[::-1])
 print("Reversing string using revered function")
 String1 ="".join(reversed(String1))
 print(String1)
+
+#updating a character of the string
+String1 ="Manoj"
+list1 =list(String1)
+list1[2]='p'
+String2=''.join(list1)
+print("\nUpdating character atv2nd Index: ")
+print(String2)
