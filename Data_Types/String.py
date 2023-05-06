@@ -31,9 +31,28 @@ String1 ="".join(reversed(String1))
 print(String1)
 
 #updating a character of the string
-String1 ="Manoj"
+#1
+String1 ="ManojKumar"
 list1 =list(String1)
 list1[2]='p'
 String2=''.join(list1)
 print("\nUpdating character atv2nd Index: ")
 print(String2)
+#2
+String2 = String1[0:1]+'p'+String1[5:]
+print(String2)
+
+#Escape Sequencing of String
+#1
+String1 = 'I\'m "Manoj"'
+print("\nEscaping Single Quotes: ")
+print(String1)
+#2
+String1 = "I'm \"Manoj\""
+print("\nEscaping Double Quotes: ")
+print(String1)
+#3
+String1 = "Hi\tHello"
+print("\nTab: ")
+print(String1)
+
