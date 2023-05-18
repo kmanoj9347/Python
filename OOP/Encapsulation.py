@@ -1,3 +1,4 @@
+#protected members
 #Creating a base class
 class Base:
     def __init__(self):
