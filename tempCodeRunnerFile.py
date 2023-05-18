@@ -1,1 +1,2 @@
-    print("No")
+import os
+print(os.getcwd())

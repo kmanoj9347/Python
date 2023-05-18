@@ -15,4 +15,3 @@ class Student3(Student1,School):
 object = Student3()
 object.func1()
 object.func2()
-object.func3()
