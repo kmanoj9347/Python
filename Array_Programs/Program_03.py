@@ -4,8 +4,8 @@ def _sum(arr):
     #and get sum on accumulator
     sum = reduce(lambda a,b:a+b,arr)
     return(sum)
-arr =[]
-arr =[12,3,4,15]
+arr ={}
+arr ={12,3,4,15}
 n =len(arr)
 ans =_sum(arr)
 print('Sum of the array is',ans)
