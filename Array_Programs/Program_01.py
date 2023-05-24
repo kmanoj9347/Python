@@ -2,7 +2,7 @@
 def _sum(arr):
     sum =0
     for i in arr:
-        sum +=i
+        sum =sum+i
     return(sum)
 
 #main function
@@ -12,6 +12,6 @@ if __name__ == "main__":
     #calculating length of array
     n = len(arr)
     #calling function ans store the sum in ans
-    ans =_sum(arr)
+    ans = _sum(arr)
     #display sum
     print('Sum of the arrayi is ',ans)
