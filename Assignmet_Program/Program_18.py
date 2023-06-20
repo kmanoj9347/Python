@@ -1,3 +1,5 @@
+#Write the python code to create character ‘A’ on the screen using turtle graphics with
+#absolute positioning
 import turtle
 
 # Setup turtle window
