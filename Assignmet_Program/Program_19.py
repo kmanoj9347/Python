@@ -1,17 +1,18 @@
-import turtle
-my_turtle = turtle.Turtle()
-my_turtle.shape('polygon')
-n = 6  # Number of sides
-side_length = 100  # Length of each side
-my_turtle.shapesize(outline=n, stretch_len=side_length/20)
-my_turtle.color('blue')
-my_turtle.fillcolor('yellow')
-my_turtle.penup()
-my_turtle.goto(-200, 0)
-my_turtle.pendown()
-for _ in range(n):
-    my_turtle.stamp()
-    my_turtle.forward(side_length)
-    my_turtle.right(360 / n)
-    my_turtle.hideturtle()
-turtle.done()
+#Operator overLoading
+class A:
+    def __init__(self,a):
+        self.a=a
+
+    #adding two objects
+    def __add__(self,o):
+        return self.a+o.a
+obj1 =A(1)
+obj2 =A(2)
+obj3 =A('Good')
+obj4 =A('Morning')
+
+print(obj1+obj2)
+print(obj3+obj4)
+#Actual working when Binary Operator is used.
+print(A.__add__(obj1,obj2))
+print(A.__add__(obj3,obj4))
