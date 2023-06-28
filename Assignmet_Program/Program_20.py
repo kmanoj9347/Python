@@ -1,3 +1,4 @@
+#  Write a python script to draw a square using setposition method in absolute positioning.
 import turtle
 
 # Create a turtle object

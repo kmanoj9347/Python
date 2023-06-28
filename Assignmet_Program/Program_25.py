@@ -1,3 +1,7 @@
+# Write a set of instructions for controlling the turtle to draw a line from the top-left
+#corner of the screen to the bottom-right corner, and from the top-right corner to the
+#bottom-left corner, thereby making a big X on the screen. There should be no other
+#lines drawn on the screen.
 import turtle
 
 # Setup turtle window
