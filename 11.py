@@ -1,3 +1,4 @@
+# gcd of two numbers
 import math
 def compute_gcd(x,y):
     if(x>0 and y>0):
