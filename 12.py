@@ -1,3 +1,4 @@
+#matrix Addition
 m=int(input("Number of rows for matrix A, m ="))
 n=int(input("Number of columns for matrix A, n ="))
 p=int(input("Number of rows for matrix B, p ="))
